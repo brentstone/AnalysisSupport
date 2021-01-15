@@ -116,7 +116,7 @@ public:
     }
     virtual void reset() { value->clear();}
     virtual void book(TreeWrapper * tw) {branch = tw->bookArray<Type>(bookName().c_str(),(Type*)(0), type.c_str(),sizeVarName().c_str() );}
-    virtual std::string sizeVarName() const {return prefix == "" ? name : (prefix + "_" + sizeName); }
+    virtual std::string sizeVarName() const {return prefix == "" ? sizeName : (prefix + "_" + sizeName); }
 protected:
     std::shared_ptr<std::vector<Type>> value;
     const std::string sizeName;
