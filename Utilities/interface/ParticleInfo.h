@@ -15,7 +15,7 @@ namespace ParticleInfo
 enum  HadronType  { OTHER
                   , /*PI0,*/ PIPLUS, ETA0, KAON, DIQUARK, LIGHT_MESON, LIGHT_BARYON
                   , DPLUS, D0, DSPLUS, LAMBDACPLUS, C_MESON, C_BARYON
-                  , BPLUS, B0, BS0, LAMBDAB0, B_MESON, B_BARYON
+                  , BPLUS, HADRON_B0, HADRON_BS0, LAMBDAB0, B_MESON, B_BARYON
                   , numDetailedHadronTypes
                   };
 // New particle enums....how do they relate to old versions...

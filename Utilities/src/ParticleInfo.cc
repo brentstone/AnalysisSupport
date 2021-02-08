@@ -681,8 +681,8 @@ ParticleInfo::HadronType ParticleInfo::detailedTypeOfHadron(int pdgId)
     case p_d0:              return D0;
     case p_dsplus:          return DSPLUS;
     case p_bplus:           return BPLUS;
-    case p_b0:              return B0;
-    case p_bs0:             return BS0;
+    case p_b0:              return HADRON_B0;
+    case p_bs0:             return HADRON_BS0;
   //case p_bcplus:          return BCPLUS;
     case p_lambdacplus:     return LAMBDACPLUS;
   //case p_xic0:            return XIC0;
